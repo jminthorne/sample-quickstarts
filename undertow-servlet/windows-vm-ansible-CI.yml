@@ -1,1 +1,8 @@
 /undertow-servlet (Line: 2, Col: 1): A sequence was not expected
+- task: InvokeRESTAPI@1
+  inputs:
+    connectionType: 'connectedServiceName'
+    serviceConnection: 'Ansible API'
+    method: 'GET'
+    urlSuffix: '36/launch'
+    waitForCompletion: 'false'

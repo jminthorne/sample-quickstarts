@@ -1,4 +1,4 @@
-- task: InvokeRESTAPI
+- task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceName'
     serviceConnection: 'Ansible API'

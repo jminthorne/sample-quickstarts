@@ -1,0 +1,7 @@
+- task: InvokeRESTAPI@1
+  inputs:
+    connectionType: 'connectedServiceName'
+    serviceConnection: 'Ansible API'
+    method: 'GET'
+    urlSuffix: '36/launch'
+    waitForCompletion: 'false'

@@ -32,7 +32,7 @@ import io.undertow.servlet.api.DeploymentManager;
 import static io.undertow.servlet.Servlets.defaultContainer;
 import static io.undertow.servlet.Servlets.deployment;
 import static io.undertow.servlet.Servlets.servlet;
-
+jminthor
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -54,7 +54,7 @@ public class ServletServer {
                     .setDeploymentName("test.war")
                     .addServlets(
                             servlet("MessageServlet", MessageServlet.class)
-                                    .addInitParam("message", "Hello Team! How is everyone doing today?!")
+                                    .addInitParam("message", "Hello Team! How is the team doing today?!")
                                     .addMapping("/*"),
                             servlet("MyServlet", MessageServlet.class)
                                     .addInitParam("message", "MyServlet")
